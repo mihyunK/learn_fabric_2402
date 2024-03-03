@@ -131,7 +131,7 @@ A simple way to ingest data is to use a **Copy Data** activity in a pipeline to 
     > **Note**: Since this is the first time you've run any Spark code in this session, the Spark pool must be started. This means that the first cell can take a minute or so to complete.
 
 6. When the notebook run has completed, in the **Lakehouse explorer** pane on the left, in the **...** menu for **Tables** select **Refresh** and verify that a **sales** table has been created.
-7. In the notebook menu bar, use the ⚙️ **Settings** icon to view the notebook settings. Then set the **Name** of the notebook to **Load Sales** and close the settings pane.
+7. In the notebook menu bar, use the ⚙️ **Settings** icon to view the notebook settings. Then set the **Name** of the notebook to **Load_Sales** and close the settings pane.
 8. In the hub menu bar on the left, select your lakehouse.
 9. In the **Explorer** pane, refresh the view. Then expand **Tables**, and select the **sales** table to see a preview of the data it contains.
 
@@ -166,9 +166,9 @@ Now that you've implemented a notebook to transform data and load it into a tabl
 
 6. Select the **Notebook** activity, and then in the pane below the design canvas, set the following properties:
     - **General**:
-        - **Name**: Load Sales notebook
+        - **Name**: Load_Sales_notebook
     - **Settings**:
-        - **Notebook**: Load Sales
+        - **Notebook**: Load_Sales
         - **Base parameters**: *Add a new parameter with the following properties:*
             
             | Name | Type | Value |
